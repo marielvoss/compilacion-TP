@@ -6,7 +6,7 @@ h1,p,h2,h3 {
 }
 .sombra{
    display: block;
-   background-color:rgba(240, 255, 255, 0.366);
+   background-color:rgba(240, 255, 255, 0.505);
    border-radius: 20px;
    justify-content: center;  
    
@@ -32,22 +32,27 @@ h2, h3, image{
     background-color:  rgb(223, 207, 187);   
     
 }
-.nav-link {
-    color: blue;   
+.nav-link {  
+    align-items:center;  
+    color: blue; 
+      
+   
 }
 .navbar-brand{
     font-family: cursive;
     color: blue;
 }
 /*estilos promos*/
-.promos {
+.promos{
     color: blue;
     width: 100%;
     font-size: larger;
-    background-color: antiquewhite;
-    text-decoration: none;
+    background-color: antiquewhite;       
     text-align: center;
     justify-content: center;
+}
+a{
+    text-decoration: none;
 }
 /*estilos nosotros*/
 .contenedor{
@@ -88,7 +93,7 @@ h2, h3, image{
    border-radius: 20px;
 }
 .carousel {
-   width: 50%;
+    width: 70%;
 }
 /*estilos contacto*/
 .interaccion{
