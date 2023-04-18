@@ -1,5 +1,5 @@
 /*estilos generales*/
-h1,p,h2,h3 {
+h1,p,h2,h3,h4 {
    font-family: 'Edu NSW ACT Foundation', cursive;
    text-align: center;  
   
@@ -14,20 +14,26 @@ h1,p,h2,h3 {
 /*estilos header*/
 
 header {
-   display: block;
-   font-size: x-large;
-   background-image: url(./Imágenes/foto1recortada.jpg);
-   background-size: cover;
-   width: 1300;
-   height: 300px; 
-   color: black;
+   
+    display: block;
+    font-size: x-large;
+    background-image: url(./Imágenes/foto1recortada.jpg);
+    background-size: cover;
+    width: 1300;
+    height: 300px; 
+    color: black;
       
 }
 h2, h3, image{
    text-align: center;
 }
 /*estilos navbar*/
+.navbar {
+    position: sticky;
+    top: 0;
+}
 .container{
+    
     display: flex;
     background-color:  rgb(223, 207, 187);   
     
@@ -60,6 +66,7 @@ a{
    background-color: antiquewhite;
    justify-content:space-around;
    width: 100%;
+   flex-wrap: wrap;
    
    
 }
@@ -97,53 +104,80 @@ a{
 }
 /*estilos contacto*/
 .interaccion{
-    display: flex;
-    
-    justify-content: space-around;
+   display: flex;
+   background-color: antiquewhite;
+   justify-content:space-around;
+   width: 100%;
+   flex-wrap: wrap;
 }
+
+    
+
 .container2{
-    display: block;
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
     background-color: rgb(223, 207, 187);
     border-color: rgba(41, 28, 223, 0.684);
     padding: 10px;
+    margin-top: 1em;
     
     
 }
 /*estilos cotización*/
 .container3{
-    display: block;
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
     justify-content:center;
     background-color: rgb(223, 207, 187);
     text-align: center; 
     font-size: small;
-    
+        
     }
 
 /* --- Pie De Página --- */
+
+.footer{
+    display: block;
+    width: 100%;    
+}
 .grupo-1{
     display: flex;
-    height: 250px;
-    width: 100%;
-
-    background-color: antiquewhite;
-    justify-content:space-between;
-    align-items:center;       
+    background-color: antiquewhite; 
+    height: 200px;
+    justify-content:space-evenly;
+    align-items:center;  
+        
     
 }
 .box{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
     justify-content: center;
-    flex-grow: 1;
+    flex-basis: content;
     text-align: center;
-   
+    font-size: small;
+  
 }
-.pie-pagina .red-social a{
+.box h3{
+    color: blue;
+}
+.box-redes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.iconos{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 25px;
     
 }
 .grupo-2{
+    display: block;
     background-color: rgb(223, 207, 187);
     text-align: center;
     font-size: 14px
